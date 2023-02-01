@@ -1,0 +1,426 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #7e7e7e;
+	color: #1c3944;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* text book page 239*/
+header {
+	background-color: #000000;
+	color: #FFFFFF;
+	background-image: url(Symbolmodified.JPG);
+	line-height: 475%;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-indent: 1em;
+	
+	font-size: small;
+}
+
+nav {
+	display: block;
+	font-weight: bold;
+	font-size: 110%;
+	float: left;
+	max-width: 215px;
+	
+
+}
+
+nav a {
+	text-decoration: none;
+	transition: background-color 2s linear;
+	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1em;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: min-content;
+	
+	list-style-type: none;
+	
+	border-top: 1px solid #EEEEEE;
+
+}
+
+nav li {
+
+	min-width: 217px;
+	font-size: 120%;
+	text-align: center;
+	background-color: #0C97A4;
+	margin: 3px;
+
+	border-bottom: 1px solid #EEEEEE;
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+
+nav a:link {
+	color: #ffffff;
+}
+
+nav a:visited {
+	color: #000000;
+}
+
+nav a:hover {
+	color: silver;
+	background-color: #21574957;
+}
+
+
+main {
+	display: block;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color: #FFFFFF;
+	margin-left: 225px;
+	padding-left: 30px;
+	overflow: auto;
+	min-height: 1000px;
+}
+
+main ul {
+	list-style-image: url(marker.gif);
+}
+
+
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia, "Times New Roman",
+		serif;
+	margin-top: 0;
+	font-size: 3em;
+	letter-spacing: 0.25em;
+}
+
+h2 {
+	color: #1a3e4ee3;
+	font-family: Georgia, "Times New Roman",
+		serif;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+	color: #000033;
+	font-family: Georgia, "Times New Roman",
+		serif;
+}
+
+dt {
+	color: #002171;
+}
+
+.resort {
+	color: #1976D2;
+	font-weight: bold;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+	font-style: italic;
+	font-size: 75%;
+	padding: 2em;
+	background-color: #FFFFFF;
+	margin-left: 225px;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+
+#wrapper {
+	width: 80%;
+	background-color: #90C7E3;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 3px 3px #333333;
+	min-width: 960px;
+	max-width: 2048px;
+	border: 1px solid black;
+	background-image: linear-gradient(to bottom, silver, #2f7a7a);
+}
+
+section {
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+#hero1 {
+	background-image: url(dragon3.jpg);
+	height: 1500px;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	margin-right: -1510px;
+}
+
+/*
+#hero2 {
+	background-image: url(the_annialator.html);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero3 {
+	background-image: url(the_midigator.html);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero4 {
+	background-image: url(the_spector.html);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero5 {
+	background-image: url(the_reckoners_ultar.html);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero6 {
+	background-image: url(the_doctor.html);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero7 {
+	background-image: url(the_kintsugi.html);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero8 {
+	background-image: url(the_unity.html);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero9 {
+	background-image: url(design);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero10 {
+	background-image: url(the_others);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero11 {
+	background-image: url(cousins);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero12 {
+	background-image: url(partners);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero13 {
+	background-image: url(priests);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero14 {
+	background-image: url(cam.jpg);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero15 {
+	background-image: url(ben.jpg);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero16 {
+	background-image: url(sams.avif);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#hero17 {
+	background-image: url(alex.webp);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	
+}
+*/
+#hero18 {
+	background-image: url(dragon4.jpg);
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 225px;
+
+}
+
+#hero19 {
+	background-image: url();
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+
+
+
+
+
+
+#gallery1 {
+	display: flex;
+	background-color: #FFF;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#gallery2 {
+	display: flex;
+	background-color: #FFF;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.gallery3 {
+	margin-left: 225px;
+	display: flex;
+	background-color: #FFF;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#gallery4 {
+	display: flex;
+	background-color: #FFF;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.gallery5 {
+	display: flex;
+	background-color: #FFF;
+	float: left;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#gallery6 {
+	display: flex;
+	background-color: #FFF;
+
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+
+table {
+	border: 3.5px solid darkgoldenrod;
+	border-collapse: collapse;
+
+}
+
+td,
+th {
+	border: 2px solid silver;
+	padding: .5em;
+
+}
+
+td {
+	text-align: center;
+}
+
+.text {
+	text-align: left;
+}
+
+tr:nth-of-type(odd) {
+	background-color: darkgray;
+}
+
+#special {
+	clear: both;
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+
+input[type="submit"] {
+	margin-left: 140px;
+}
